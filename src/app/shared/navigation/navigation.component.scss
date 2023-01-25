@@ -1,0 +1,49 @@
+#navigation {
+
+  padding-inline: 2%;
+  min-height: 10%;
+  padding-block: 1%;
+
+
+  #nn {
+    width: 8%;
+    height: auto;
+    margin-right: 3%;
+  }
+
+  #title {
+    h2 {
+      font-weight: bold;
+
+    }
+
+    padding-right: 2%;
+  }
+
+  #section-list {
+
+    li {
+      border-radius: 0;
+      background-color: transparent;
+      padding-bottom: 0;
+
+      a {
+        margin-inline: 5px;
+        color: white;
+        padding-bottom: 0;
+
+        h3 {
+          font-weight: bold;
+        }
+      }
+
+      &.active {
+        border-bottom: solid 5px white;
+
+        a {
+          color: white;
+        }
+      }
+    }
+  }
+}

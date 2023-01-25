@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=ABeeZee");
+@import url(~fullpage.js/dist/fullpage.min.css);
+
+
+app-root {
+  font-family: ABeeZee, serif;
+
+  color: white;
+
+
+  h2 {
+    color: white;
+  }
+}
+
+.divider-line {
+  width: 100%;
+  height: 0.5vh;
+  background-color: white;
+  border-radius: 1rem;
+  border-color: white;
+
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background-color: white;
+}
+
+
+section {
+  height: 90%;
+  width: 100%;
+
+  h1 {
+    padding-bottom: 2%;
+    font-size: 5vh;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+
+  p {
+    font-size: 1vw;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+
+  p {
+    font-size: 1vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  p {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  p {
+    font-size: 2.5vw;
+  }
+  #fp-nav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 350px) {
+
+  p {
+    font-size: 3vw;
+  }
+  #fp-nav {
+    display: none;
+  }
+}
+

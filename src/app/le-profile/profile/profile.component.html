@@ -1,0 +1,48 @@
+<section class="d-flex flex-column justify-content-center align-items-center">
+
+
+  <div (touchstart)="flipCard()" class="d-flex flex-column justify-content-center align-items-center"
+       id="card">
+    <div class="d-flex flex-column justify-content-center align-items-center" id="inner">
+
+      <div class="bg-white d-flex justify-content-center align-items-center pb-5" id="front">
+        <fa-icon [icon]="faRepeat" class="text-dark" id="repeat"></fa-icon>
+        <div id="nn">
+          <app-nn></app-nn>
+        </div>
+        <h1 class="bg-dark p-2" id="name"> Tim Le Large </h1>
+      </div>
+      <div class="bg-dark p-3 fs-1 d-flex flex-column  justify-content-center align-items-center" id="back">
+        <div class="w-100 pb-3" id="title"> Profile
+          <div class="divider-line mb-1"></div>
+
+        </div>
+
+
+        <p>Hey, I'm Tim Le Large, 24 years old, and I'm currently finishing my bachelor in computer science at
+          "Hochschule Mannheim".
+        </p>
+        <p>
+          While studying, I've become interested in the area of artificial intelligence, which I spend most of my time
+          with.
+          Besides this passion, I've also created multiple other projects, which you can find in the
+          following.
+        </p>
+        <p>
+          Take your time and have a look. For further questions, feel free to contact me.
+        </p>
+      </div>
+    </div>
+
+  </div>
+  <form action="https://www.duckduckgo.com/" id="duckduckgo" method="get">
+
+    <p><input autocomplete="off" id="duckduckgo-input" name="q" placeholder="  private search..."
+              type="text"/></p>
+  </form>
+
+
+</section>
+
+
+

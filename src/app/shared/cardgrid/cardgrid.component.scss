@@ -1,0 +1,115 @@
+#container {
+
+  #grid-item {
+    position: relative;
+
+
+    #grid-icon {
+      font-size: 300%;
+      color: white;
+    }
+
+
+    .card-underline {
+      width: 100%;
+      height: 0.2rem;
+      background-color: black;
+      border-radius: 1rem;
+
+
+    }
+
+    #title {
+      font-size: 3vh;
+    }
+
+    #hover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      text-decoration: none;
+    }
+
+
+    #grid-title {
+      border-radius: 0.5rem;
+
+      color: black;
+      transition: opacity 0.3s ease-in-out;
+
+
+    }
+
+    #grid-title:hover {
+      border: 3px black solid;
+      transition: opacity 0.3s ease-in-out;
+      opacity: 1;
+    }
+
+    #description{
+      font-size: 2vh;
+    }
+  }
+
+}
+
+@media screen and (min-width: 800px) {
+  #container {
+    width: 80%;
+  }
+  #grid-item {
+    margin: 2vh;
+    cursor: pointer;
+    position: relative;
+    border-radius: 0.5rem;
+    width: 35vh;
+    height: 25vh;
+  }
+  #grid-title {
+    opacity: 0;
+  }
+
+
+}
+
+@media screen and (max-width: 800px) {
+  #container {
+    width: 100%;
+  }
+  #grid-item {
+    margin: 0.5%;
+    cursor: pointer;
+    position: relative;
+    border-radius: 0.5rem;
+    width: 30vh;
+    height: 10vh;
+  }
+  #grid-title {
+    opacity: 1;
+    border: 3px black solid;
+  }
+  #description {
+    display: none;
+  }
+  #grid-icon {
+    display: none;
+  }
+
+
+}
+
+@media (pointer: coarse) {
+
+  #grid-title {
+    opacity: 1;
+    border: 3px black solid;
+  }
+
+  #grid-icon {
+    display: none;
+  }
+}
+
+

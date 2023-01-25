@@ -1,0 +1,15 @@
+<app-navigation></app-navigation>
+<div (ref)="getRef($event)" [options]="config" fullpage id="fullpage">
+
+
+  <div class="section">
+    <app-profile [showPrivateSearch]="showPrivateSearch"></app-profile>
+  </div>
+  <div class="section">
+    <app-projects></app-projects>
+  </div>
+  <div class="section">
+    <app-contact></app-contact>
+  </div>
+
+</div>

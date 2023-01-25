@@ -1,0 +1,115 @@
+#card {
+  height: 60%;
+  width: 30%;
+  max-width: 90vw;
+  perspective: 1000px;
+  text-align: center;
+
+  #title {
+    font-size: 3vh;
+
+  }
+
+  #nn {
+    width: 45vh;
+    height: auto;
+  }
+
+  #name {
+    width: 100%;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    position: absolute;
+    bottom: -10px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    font-size: 4vh;
+  }
+
+  #inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  #repeat {
+    position: absolute;
+    top: 5%;
+    right: 7%;
+    font-size: 5vh;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+
+  }
+
+
+  #front, #back {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+  }
+
+
+  #back {
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    min-height: 100%;
+    height: fit-content;
+  }
+
+
+}
+
+#duckduckgo-input {
+  width: 50vw;
+  border-color: black;
+  border-radius: 5vh;
+  border-width: 0.5vh;
+  background-color: white;
+  text-align: center;
+  color: black;
+  border-style: solid;
+  padding: 0.5vh;
+  margin-top: 5%;
+
+  &:focus {
+    outline: solid 0 white;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  #card {
+    width: 45%;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  #card {
+    width: 55%;
+  }
+
+}
+
+
+@media (pointer: fine) {
+  #card:hover {
+    #inner {
+      transform: rotateY(180deg);
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #card {
+    width: 60%;
+  }
+}
