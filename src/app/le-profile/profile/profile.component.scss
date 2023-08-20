@@ -7,7 +7,6 @@
 
   #title {
     font-size: 3vh;
-
   }
 
   #nn {
@@ -41,19 +40,16 @@
     font-size: 5vh;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-
-
   }
 
-
-  #front, #back {
+  #front,
+  #back {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     width: 100%;
     height: 100%;
     border-radius: 1rem;
   }
-
 
   #back {
     transform: rotateY(180deg);
@@ -63,8 +59,6 @@
     min-height: 100%;
     height: fit-content;
   }
-
-
 }
 
 #duckduckgo-input {
@@ -84,27 +78,15 @@
   }
 }
 
-
 @media screen and (max-width: 1200px) {
   #card {
     width: 45%;
   }
 }
 
-
 @media screen and (max-width: 800px) {
   #card {
     width: 55%;
-  }
-
-}
-
-
-@media (pointer: fine) {
-  #card:hover {
-    #inner {
-      transform: rotateY(180deg);
-    }
   }
 }
 

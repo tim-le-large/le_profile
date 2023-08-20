@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-le-profile',
@@ -17,7 +17,7 @@ export class LeProfileComponent implements OnInit {
 
     this.config = {
       licenseKey: 'gplv3-license',
-      anchors: ['profile', 'projects', 'contact'],
+      anchors: ['profile', 'contact'],
       menu: '#navigation',
       navigation: true,
     };

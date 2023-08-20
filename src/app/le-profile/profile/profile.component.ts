@@ -1,5 +1,5 @@
-import {Component, Input, OnInit} from '@angular/core';
-import {faRepeat} from '@fortawesome/free-solid-svg-icons';
+import { Component, Input, OnInit } from '@angular/core';
+import { faRepeat } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-profile',
@@ -26,17 +26,4 @@ export class ProfileComponent implements OnInit {
     }
   }
 
-  flipCard() {
-    if ((('ontouchstart' in window) ||
-      (navigator.maxTouchPoints > 0)
-    )) {
-      if (this.cardFlipped) {
-        document.getElementById("inner")!.style.transform = "rotateY(0deg)"
-
-      } else {
-        document.getElementById("inner")!.style.transform = "rotateY(180deg)"
-      }
-      this.cardFlipped = !this.cardFlipped;
-    }
-  }
 }
