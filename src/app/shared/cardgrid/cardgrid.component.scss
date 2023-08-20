@@ -1,22 +1,18 @@
 #container {
-
   #grid-item {
     position: relative;
-
+    background-color: rgb(37, 38, 37);
 
     #grid-icon {
       font-size: 300%;
       color: white;
     }
 
-
     .card-underline {
       width: 100%;
       height: 0.2rem;
       background-color: black;
       border-radius: 1rem;
-
-
     }
 
     #title {
@@ -32,14 +28,11 @@
       text-decoration: none;
     }
 
-
     #grid-title {
       border-radius: 0.5rem;
 
       color: black;
       transition: opacity 0.3s ease-in-out;
-
-
     }
 
     #grid-title:hover {
@@ -48,11 +41,10 @@
       opacity: 1;
     }
 
-    #description{
+    #description {
       font-size: 2vh;
     }
   }
-
 }
 
 @media screen and (min-width: 800px) {
@@ -70,8 +62,6 @@
   #grid-title {
     opacity: 0;
   }
-
-
 }
 
 @media screen and (max-width: 800px) {
@@ -96,12 +86,9 @@
   #grid-icon {
     display: none;
   }
-
-
 }
 
 @media (pointer: coarse) {
-
   #grid-title {
     opacity: 1;
     border: 3px black solid;
@@ -111,5 +98,3 @@
     display: none;
   }
 }
-
-
