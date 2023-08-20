@@ -33,15 +33,6 @@
     transform-style: preserve-3d;
   }
 
-  #repeat {
-    position: absolute;
-    top: 5%;
-    right: 7%;
-    font-size: 5vh;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-
   #front,
   #back {
     -webkit-backface-visibility: hidden;
@@ -49,6 +40,8 @@
     width: 100%;
     height: 100%;
     border-radius: 1rem;
+    border: 0.5vh black solid;
+    border-radius: 2vh;
   }
 
   #back {

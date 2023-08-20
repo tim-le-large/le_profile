@@ -16,8 +16,7 @@ export class ProfileComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    if (!this.showPrivateSearch)
-      document.getElementById("duckduckgo")!.style.display = "None";
+
 
     window.onload = function () {
       document.getElementById("duckduckgo-input")!.focus({
