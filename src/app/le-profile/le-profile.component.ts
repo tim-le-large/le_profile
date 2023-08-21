@@ -17,7 +17,7 @@ export class LeProfileComponent implements OnInit {
 
     this.config = {
       licenseKey: 'gplv3-license',
-      anchors: ['profile', 'contact'],
+      anchors: ['profile', 'projects', 'playground', 'contact'],
       menu: '#navigation',
       navigation: true,
     };
