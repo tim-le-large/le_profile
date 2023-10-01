@@ -1,16 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=ABeeZee");
 @import url(~fullpage.js/dist/fullpage.min.css);
 
-
 app-root {
   font-family: ABeeZee, serif;
 
   color: white;
 
-
   h2 {
     color: white;
   }
+}
+
+section {
+  position: absolute;
+  top: 10%;
 }
 
 .divider-line {
@@ -19,14 +22,12 @@ app-root {
   background-color: white;
   border-radius: 1rem;
   border-color: white;
-
 }
 
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
   background-color: white;
 }
-
 
 section {
   height: 90%;
@@ -38,30 +39,25 @@ section {
   }
 }
 
-
 @media screen and (min-width: 1200px) {
-
   p {
     font-size: 1vw;
   }
 }
 
 @media screen and (max-width: 1200px) {
-
   p {
     font-size: 1vw;
   }
 }
 
 @media screen and (max-width: 800px) {
-
   p {
     font-size: 2vw;
   }
 }
 
 @media screen and (max-width: 500px) {
-
   p {
     font-size: 2.5vw;
   }
@@ -71,7 +67,6 @@ section {
 }
 
 @media screen and (max-width: 350px) {
-
   p {
     font-size: 3vw;
   }
@@ -79,4 +74,3 @@ section {
     display: none;
   }
 }
-

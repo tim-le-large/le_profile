@@ -83,15 +83,15 @@
   }
 }
 
-@media (pointer: fine) {
-  #card:hover {
-    #inner {
-      transform: rotateY(360deg);
-      -webkit-transition: transform 1s ease-out;
-      transition: transform 1s ease-out;
-    }
-  }
-}
+// @media (pointer: fine) {
+//   #card:hover {
+//     #inner {
+//       transform: rotateY(360deg);
+//       -webkit-transition: transform 1s ease-out;
+//       transition: transform 1s ease-out;
+//     }
+//   }
+// }
 
 @media screen and (max-width: 500px) {
   #card {

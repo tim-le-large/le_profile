@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LeDashboardComponent } from './le-dashboard/le-dashboard.component';
-import { LeProfileComponent } from './le-profile/le-profile.component';
+import { AppComponent } from './app.component';
+import { PongComponent } from './pong/pong.component';
+
 
 const routes: Routes = [
-  { path: 'dashboard', component: LeDashboardComponent },
-  { path: '', component: LeProfileComponent },
-  { path: 'profile', component: LeProfileComponent },]
+  { path: 'pong', component: PongComponent },
+  { path: '', component: AppComponent },
+]
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

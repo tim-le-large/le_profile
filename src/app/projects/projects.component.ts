@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { faDocker } from '@fortawesome/free-brands-svg-icons';
 import { faArrowDown91, faArrowsToCircle, faCircle, faGamepad, faMinus } from '@fortawesome/free-solid-svg-icons';
-import { Card } from 'src/app/shared/cardgrid/card';
+import { Card } from 'src/app/cardgrid/card';
 
 
 @Component({

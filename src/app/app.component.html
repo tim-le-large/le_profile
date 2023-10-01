@@ -1,1 +1,23 @@
-<router-outlet></router-outlet>
+<div (ref)="getRef($event)" [options]="config" fullpage id="fullpage">
+    <app-navigation></app-navigation>
+
+
+    <div class="section">
+        <app-profile></app-profile>
+    </div>
+    <div class="section">
+        <app-projects></app-projects>
+    </div>
+    <div class="section">
+        <app-playground></app-playground>
+    </div>
+
+    <div class="section">
+        <app-contact></app-contact>
+    </div>
+
+
+
+</div>
+
+<li><a routerLink="/first-component" routerLinkActive="active" ariaCurrentWhenActive="page">First Component</a></li>

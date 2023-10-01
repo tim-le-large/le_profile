@@ -18,11 +18,11 @@ export class ProfileComponent implements OnInit {
   ngOnInit(): void {
 
 
-    window.onload = function () {
-      document.getElementById("duckduckgo-input")!.focus({
-        preventScroll: true
-      });
-    }
+    // window.onload = function () {
+    //   document.getElementById("duckduckgo-input")!.focus({
+    //     preventScroll: true
+    //   });
+    // }
   }
 
 }

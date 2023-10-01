@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LeDashboardComponent } from './le-dashboard.component';
+import { PongComponent } from './pong.component';
 
-const routes: Routes = [{ path: '', component: LeDashboardComponent }];
+const routes: Routes = [{ path: '', component: PongComponent }];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class LeDashboardRoutingModule { }
+export class PongRoutingModule { }

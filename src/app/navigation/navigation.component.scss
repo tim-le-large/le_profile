@@ -1,13 +1,18 @@
 #navigation {
   padding-inline: 2%;
-  min-height: 10%;
   padding-block: 1%;
   background-color: rgb(37, 38, 37);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 10%;
+  width: 100%;
 
-  #nn {
-    width: 8%;
+  #nnbg {
+    width: 120px;
     height: auto;
-    margin-right: 3%;
+    border-radius: 1rem;
+    padding-top: 5%;
   }
 
   #title {
