@@ -6,7 +6,6 @@ import { ProfileComponent } from './profile/profile.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { NnComponent } from './nn/nn.component';
 import { IconComponent } from './icon/icon.component';
-import { PlaygroundComponent } from './playground/playground.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { AngularFullpageModule } from '@fullpage/angular-fullpage';
 import { CommonModule } from '@angular/common';
@@ -19,8 +18,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
-    AppComponent, ProfileComponent, NavigationComponent, NnComponent, IconComponent, PlaygroundComponent, ProjectsComponent, ContactComponent, CardgridComponent
-  ],
+    AppComponent, ProfileComponent, NavigationComponent, NnComponent, IconComponent, ProjectsComponent, ContactComponent, CardgridComponent],
 
   imports: [
     BrowserModule, AppRoutingModule, CommonModule, AngularFullpageModule, FontAwesomeModule
